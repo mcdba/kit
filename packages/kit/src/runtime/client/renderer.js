@@ -165,8 +165,8 @@ export class Renderer {
 
 		this.stores.navigating.set({
 			from: {
-				path: this.current.page.path,
-				query: this.current.page.query
+				path: this.current?.page?.path,
+				query: this.current?.page?.query
 			},
 			to: {
 				path,
